@@ -128,6 +128,6 @@ These results illustrate how the tool identifies potential data quality problems
 - Improve test coverage and reporting.
 - Add visual summaries of data quality metrics.
 
-## Author
+## Notes
 
 Created as a portfolio project to demonstrate practical Python, pandas, data profiling, validation, and reporting skills.
