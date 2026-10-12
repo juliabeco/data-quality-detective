@@ -1,0 +1,9 @@
+metric,value
+total_rows,10.0
+total_columns,4.0
+total_cells,40.0
+missing_cells,2.0
+duplicate_rows,0.0
+validation_issues,3.0
+rows_with_validation_issues,3.0
+rows_with_issues_pct,30.0

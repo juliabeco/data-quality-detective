@@ -1,0 +1,11 @@
+customer_id,age,city,monthly_spend
+101,29,Valencia,45.5
+102,34,Madrid,60.0
+103,,Valencia,32.0
+104,150,Sevilla,51.0
+105,41,,75.0
+106,29,Valencia,45.5
+107,27,Madrid,-10.0
+108,35,Barcelona,62.0
+109,unknown,Valencia,40.0
+110,31,Madrid,55.0

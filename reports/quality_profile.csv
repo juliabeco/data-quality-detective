@@ -1,0 +1,5 @@
+column,data_type,missing_count,missing_pct,unique_values
+customer_id,int64,0,0.0,10
+age,object,1,10.0,8
+city,object,1,10.0,4
+monthly_spend,float64,0,0.0,9

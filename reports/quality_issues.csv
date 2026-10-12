@@ -1,0 +1,4 @@
+row_index,customer_id,column,rule,severity,value,message
+8,109,age,AGE_NOT_NUMERIC,high,unknown,Age must be a numeric value.
+3,104,age,AGE_OUT_OF_RANGE,high,150,Age must be between 0 and 100.
+6,107,monthly_spend,NEGATIVE_SPENDING,medium,-10.0,Monthly spending cannot be negative.

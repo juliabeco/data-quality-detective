@@ -1,0 +1,4 @@
+rule,severity,issue_count
+AGE_NOT_NUMERIC,high,1
+AGE_OUT_OF_RANGE,high,1
+NEGATIVE_SPENDING,medium,1
