@@ -80,6 +80,31 @@ The generated CSV reports are saved in the `reports/` directory by default.
 
 These rules are examples designed for the included synthetic customer dataset. They should be adapted to the business context and data dictionary of each real dataset.
 
+## Example Results
+
+The tool was tested on a synthetic customer dataset containing 10 records. It identified three records with validation issues, representing 30% of the dataset.
+
+### Dataset Quality Summary
+
+| Metric | Result |
+|---|---:|
+| Records analyzed | 10 |
+| Records with validation issues | 3 |
+| Percentage of affected records | 30% |
+| Missing cells | 2 |
+| Exact duplicate rows | 0 |
+| Validation issues detected | 3 |
+
+### Validation Issues Detected
+
+| Rule | Affected record | Issue |
+|---|---:|---|
+| `AGE_OUT_OF_RANGE` | Customer 104 | Age is 150 |
+| `NEGATIVE_SPENDING` | Customer 107 | Monthly spending is -10.00 |
+| `AGE_NOT_NUMERIC` | Customer 109 | Age is recorded as "unknown" |
+
+These results illustrate how the tool identifies potential data quality problems before analysis. The dataset is synthetic and is intended for demonstration purposes only.
+
 ## Output Reports
 
 - `quality_summary.csv`: overall dataset metrics.
